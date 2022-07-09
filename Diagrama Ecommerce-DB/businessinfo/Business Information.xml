@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="637FE9E2-B883-CD01-1048-3486E0882A6E">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:02:02 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

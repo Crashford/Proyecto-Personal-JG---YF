@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EDFD7AF-87C5-0D86-A5AE-CCB2D53AC272" name="Factura">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:11:40 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>Fac</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Factura" id="D1A64402-B021-E04B-F1F0-A544176FE6DE">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:12:21 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="E8888DE0-19CA-A746-AF10-C3ED5A0255D0">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:13:03 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="BDB18DE9-A7BF-E436-8BD7-53DEFE285F7D">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:13:46 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,0,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor" id="D4C3145A-718F-1AE8-C387-62923711D28F">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:13:59 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,2,8</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor_total" id="61CB5232-FA85-E186-CCA3-D8BA86A43B8D">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:14:10 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Producto" id="055E5811-DEA7-2E53-B37D-2D994A189D2C">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:14:57 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F23FF3BD-F449-9914-F469-11FDDE66DF57" referredColumn="C70B10F7-F86F-EC04-990C-FFC13A193850"/>
+</associations>
+</Column>
+<Column name="ID_Cliente" id="F2098F7B-3697-BA0E-9180-84752A4487DC">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:22:20 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC769077-E6C5-FA8B-E89F-0C442D17D9FA" referredColumn="C9183257-FF2F-0C61-1045-FC5E8B265E12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89F42B52-0E0F-EB20-410A-E2DF0383B316" name="Factura_PK">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:12:21 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1A64402-B021-E04B-F1F0-A544176FE6DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26AF439D-7831-5A0A-24A4-0400A3BD9E96" name="Factura_Producto_FK">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:21:32 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="055E5811-DEA7-2E53-B37D-2D994A189D2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1306B368-DC09-EABC-E9DA-F3169CB02A46" name="Factura_Cliente_FK">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:22:31 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2098F7B-3697-BA0E-9180-84752A4487DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

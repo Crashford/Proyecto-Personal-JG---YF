@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC769077-E6C5-FA8B-E89F-0C442D17D9FA" containerWithKeyObject="3EDFD7AF-87C5-0D86-A5AE-CCB2D53AC272" localFKIndex="1306B368-DC09-EABC-E9DA-F3169CB02A46" name="Factura_Cliente_FK">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:22:31 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<referredTableLongName>Cliente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94A5C5F4-0D12-256E-CF54-46064712A102</referredTableID>
+<keyObject>8DDE9EB2-F291-8E14-3A31-6D2954DE0A02</keyObject>
+<referredKeyID>8DDE9EB2-F291-8E14-3A31-6D2954DE0A02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

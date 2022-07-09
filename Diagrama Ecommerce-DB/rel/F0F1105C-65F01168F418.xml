@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Ecommerce-DB" id="F0F1105C-C6E8-1898-70D2-65F01168F418" mainViewID="3129E13A-7FB2-E9F5-8F61-C3519A299A30">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:02:04 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

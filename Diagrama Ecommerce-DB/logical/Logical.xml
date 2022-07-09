@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="55084387-26BC-E1E8-0DD7-A565D71A5E8C" mainViewID="9CA04524-375E-8F42-1105-6332C457DBDC">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:02:01 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

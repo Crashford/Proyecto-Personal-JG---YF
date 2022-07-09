@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="3129E13A-7FB2-E9F5-8F61-C3519A299A30" name="Ecommerce-DB" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

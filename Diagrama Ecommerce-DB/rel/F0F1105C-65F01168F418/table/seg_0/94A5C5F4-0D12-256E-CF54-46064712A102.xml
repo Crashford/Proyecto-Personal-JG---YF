@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94A5C5F4-0D12-256E-CF54-46064712A102" name="Cliente">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:06:57 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>Clie</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cliente" id="C9183257-FF2F-0C61-1045-FC5E8B265E12">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:10:12 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="75F4A65D-90D4-2986-B51C-7EEBA133918B">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:10:26 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DDE9EB2-F291-8E14-3A31-6D2954DE0A02" name="Cliente_PK">
+<createdBy>yeiso</createdBy>
+<createdTime>2022-07-09 21:10:12 UTC</createdTime>
+<ownerDesignName>Diagrama Ecommerce-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9183257-FF2F-0C61-1045-FC5E8B265E12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
